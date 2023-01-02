@@ -1,0 +1,67 @@
+body{
+  background-color: black;
+}
+
+.post{
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: rgb(167, 167, 167);
+  margin: 20px;
+  margin-left: 25%;
+  padding: 20px;
+  width: 600px;
+  position: relative;
+  top: 35px;
+}
+
+.post > .tittle {
+  font-size: 25px;
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.post > .image{
+  width: 600px;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+  right: 10px;
+}
+
+input{
+  width: 30%;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  /* padding: 20px; */
+  text-indent: 18px;
+}
+
+button{
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(144, 150, 150);
+  color: rgb(56, 53, 53);
+  font-weight: bold;
+}
+
+::placeholder{
+  font-size: 16px;
+  position: relative;
+  left: 10px;
+}
+
+.loader{
+  color: aliceblue;
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
